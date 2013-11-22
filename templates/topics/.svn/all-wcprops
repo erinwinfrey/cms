@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/vtcri/vtcri_cms/!svn/ver/270/trunk/templates/topics
+END
+topic_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/vtcri/vtcri_cms/!svn/ver/270/trunk/templates/topics/topic_detail.html
+END
+topic_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/vtcri/vtcri_cms/!svn/ver/671/trunk/templates/topics/topic_list.html
+END

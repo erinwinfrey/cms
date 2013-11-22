@@ -1,0 +1,18 @@
+from django.conf.urls.defaults import patterns, include, url
+from cms.press.models import Mention
+#from cms.employees.models import Employee
+from django.views.generic import ListView#, DetailView
+
+urlpatterns = patterns('',
+	(r'^$', ListView.as_view(
+		queryset = Mention.objects.all().order_by('-pub_date'),
+		context_object_name = "mention_list",
+		template_name = "press/mention_list.html",
+		paginate_by = 15,
+	)),
+    #(r'^(?P<slug>[-\w]+)/$', DetailView.as_view(
+    #	context_object_name = "employee",
+    #	template_name = "press/mentions_for_employee.html",
+    #	model = Employee,
+    #)),
+)

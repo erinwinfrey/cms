@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/vtcri/vtcri_cms/!svn/ver/632/trunk/templates/employees
+END
+staff_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/vtcri/vtcri_cms/!svn/ver/447/trunk/templates/employees/staff_list.html
+END
+employee_detail.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/vtcri/vtcri_cms/!svn/ver/1363/trunk/templates/employees/employee_detail.html
+END
+research-support_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/vtcri/vtcri_cms/!svn/ver/630/trunk/templates/employees/research-support_list.html
+END
+faculty_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/vtcri/vtcri_cms/!svn/ver/628/trunk/templates/employees/faculty_list.html
+END
+press_by_employee.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/vtcri/vtcri_cms/!svn/ver/849/trunk/templates/employees/press_by_employee.html
+END
+publications_by_employee.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/vtcri/vtcri_cms/!svn/ver/999/trunk/templates/employees/publications_by_employee.html
+END
+administrative-support_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/vtcri/vtcri_cms/!svn/ver/632/trunk/templates/employees/administrative-support_list.html
+END
+postdocs_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/vtcri/vtcri_cms/!svn/ver/629/trunk/templates/employees/postdocs_list.html
+END
+employee_list.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/vtcri/vtcri_cms/!svn/ver/625/trunk/templates/employees/employee_list.html
+END

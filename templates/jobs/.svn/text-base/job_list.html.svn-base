@@ -1,0 +1,40 @@
+{% extends "base_jobs.html" %}
+
+{% load generic_markup cache %}
+
+{% block title %}Virginia Tech Carilion Research Institute jobs{{ block.super }}{% endblock %}
+
+{% block meta_description %}Jobs at the Virginia Tech Carilion Research Institute.{% endblock %}
+
+{% block feeds %}{% endblock %}
+
+{% block view_type %}list{% endblock %}
+
+{% block app_type %}jobs{% endblock %}
+
+{% block primary_content %}
+<div id="content_list">
+	<h1>Jobs</h1>
+
+	<p>The following jobs are available with the Virginia Tech Carilion Research Institute. You can also view this list and apply for any job on the <a href="http://www.hr.vt.edu/employment/">Virginia Tech employment website</a>.</p>
+
+	<ul>
+	{% cache 500 job_list %}
+	{% for job in job_list %}
+		<li><a href="{{ job.get_absolute_url }}" title="{{ job.title }}">{{ job.title }}</a></li>
+	{% endfor %}
+	{% endcache %}
+	</ul>
+
+</div>
+{% endblock %}
+
+{% block secondary_content %}
+<h2>More information</h2>
+
+<p>For questions concerning employment at the Virginia Tech Carilion Research Institute, please contact Human Resource Manager <a href="mailto:secastle@vtc.vt.edu">Sarah Castle</a> at 540-526-2070 (office).</p>
+
+<h2>RSS</h2>
+<p class="rss"><a href="/feeds/jobs/">Subscribe to the jobs feed</a></p> 
+
+{% endblock %}

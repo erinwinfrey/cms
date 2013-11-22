@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/vtcri/vtcri_cms/!svn/ver/510/trunk/cms/press
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vtcri/vtcri_cms/!svn/ver/268/trunk/cms/press/admin.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vtcri/vtcri_cms/!svn/ver/268/trunk/cms/press/views.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/vtcri/vtcri_cms/!svn/ver/268/trunk/cms/press/__init__.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vtcri/vtcri_cms/!svn/ver/268/trunk/cms/press/tests.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/vtcri/vtcri_cms/!svn/ver/1365/trunk/cms/press/models.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/vtcri/vtcri_cms/!svn/ver/836/trunk/cms/press/urls.py
+END
+feeds.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/vtcri/vtcri_cms/!svn/ver/758/trunk/cms/press/feeds.py
+END
