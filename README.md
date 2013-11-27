@@ -7,7 +7,7 @@ I used Django 1.3, PostgreSQL and Apache.
 
 VTCRI references have largely been removed, which accounts for holes in links, content and other areas.
 
-**Dependencies and other Python modules**
+**Dependencies and Python modules used for this project**
 * markdown: https://pypi.python.org/pypi/Markdown
 * django-shorturls: https://github.com/jacobian/django-shorturls
 * django-tagging: https://code.google.com/p/django-tagging/
