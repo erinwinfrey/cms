@@ -1,4 +1,4 @@
-/* VTCRI print stylesheet */
+/* Print stylesheet */
 
 #header, .content_tools, #more_related, #content_categories, #secondary_content, #bottom_nav, #social, #partners, #map_note {
 display: none !important;
@@ -30,5 +30,5 @@ font-size: 90%;
 }
 
 #primary_content a[href^="/"]:after, #footer a[href^="/"]:after {
-content: " (http://research.vtc.vt.edu" attr(href) ") ";
+content: " (#" attr(href) ") ";
 }

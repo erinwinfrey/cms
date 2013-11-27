@@ -1,9 +1,0 @@
-Job posted: {{ obj.created}}
-
-Job posting number: {{ obj.posting_number }}
-
-{{ obj.description_html|safe }}
-
-{{ obj.required_qualifications_html|safe }}
-
-{{ obj.how_to_apply_html|safe }}

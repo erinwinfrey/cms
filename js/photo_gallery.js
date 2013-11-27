@@ -1,4 +1,4 @@
-// VTCRI Gallery Script
+// Gallery Script
 
 $(document).ready(function(){
 	$('<div id="lead_photo"></div>').insertBefore("#image_gallery"); // Build the container for the main image

@@ -1,4 +1,4 @@
-// VTCRI Drop-down menu
+// Drop-down menu
 
 $(document).ready(function(){
 	$(".submenu").hide(); // Hide the submenu by default
