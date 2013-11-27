@@ -1,9 +1,13 @@
 cms
 ===
 
-A Django-based content management system I built while employed as webmaster for <a href="http://research.vtc.vt.edu/">Virginia Tech Carilion Research Institute</a>
+This is a content management system (CMS) I built as webmaster for the <a href="http://research.vtc.vt.edu/">Virginia Tech Carilion Research Institute</a>.
 
-**Dependencies and other modules**
+I used Django 1.3, PostgreSQL and Apache.
+
+VTCRI references have largely been removed, which accounts for holes in links, content and other areas.
+
+**Dependencies and other Python modules**
 * markdown: https://pypi.python.org/pypi/Markdown
 * django-shorturls: https://github.com/jacobian/django-shorturls
 * django-tagging: https://code.google.com/p/django-tagging/
